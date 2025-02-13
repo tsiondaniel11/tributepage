@@ -1,0 +1,100 @@
+/* General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #333;
+    text-align: center;
+}
+
+/* Main Container */
+#main {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Title Styling */
+#title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Image Container */
+#img-div {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Image Styling */
+#image {
+    display:block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+/* Hover Effect for Image */
+#image:hover {
+    transform: scale(1.05);
+}
+
+/* Image Caption */
+#img-caption {
+    font-style: italic;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Timeline Section */
+#tribute-info {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#tribute-info p {
+    font-size: 1em;
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Timeline Title */
+#tribute-info p:first-child {
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+/* Quote Styling */
+#tribute-info p:last-child {
+    font-style: italic;
+    color: #777;
+    text-align: center;
+}
+
+/* Link Styling */
+#tribute-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+}
